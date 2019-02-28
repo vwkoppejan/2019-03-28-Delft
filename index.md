@@ -2,9 +2,9 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "TU Delft Faculty Of Civil Engineering and Geosciences"        # brief name of host site without address (e.g., "Euphoric State University")
-address day 1: "Stevinweg 1, 2628 CN Delft, Room KG 02.110"      
-address day2: "Stevinweg 1, 2628 CN Delft, Room HG 2.62"
+venue: "March 2019 SWC Workshop @TU Delft"        # brief name of host site without address (e.g., "Euphoric State University")
+address day 1: "Faculty Of Civil Engineering and Geosciences, Room KG 02.110,  Stevinweg 1, 2628 CN Delft"      
+address day2: "Faculty Of Civil Engineering and Geosciences, Room HG 2.62, Stevinweg 1, 2628 CN Delft"
 country: "nl"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "51.998153, 4.375640"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -89,16 +89,17 @@ if the latitude and longitude of the workshop have been set.  You
 can use https://itouchmap.com/latlong.html to find the lat/long of an
 address.
 {% endcomment %}
-{% if page.latlng %}
+ 
 <p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+ <strong>Where:</strong>
+ The course has two different locations: 
+  
+ <ol> 
+ <li> 28 Mar: CEG faculty room KG 02.110, <a href= "https://www.tudelft.nl/en/ceg/about-the-faculty/contact-and-map/"> Get directions </a> </li>
+ <li> 29 MAr: CEG faculty room HG 2.62, <a href= "https://www.tudelft.nl/en/ceg/about-the-faculty/contact-and-map"> Get directions </a> </li>
+ </ol> 
+  
 </p>
-{% endif %}
 
 {% comment %}
 DATE
