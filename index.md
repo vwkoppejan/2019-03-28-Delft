@@ -30,8 +30,6 @@ double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-<h4> Python is one of the fastest growing, and one of the most popular, open source programming languages. In contrast to python, unix shell has been around for a long time. With unix shell you can do complex thing with a few keystrokes. In addition to coding, reproducibility of research is becoming essential in science. Therefore, this course will not only introduce you to python and unix shell but also to version control with git and Github.</h4>
-
 {% comment %}
 EVENTBRITE
 
