@@ -94,7 +94,7 @@ address.
   
  <ol> 
  <li> 28 Mar: CEG faculty room KG 02.110, <a href= "https://www.tudelft.nl/en/ceg/about-the-faculty/contact-and-map/"> Get directions </a> </li>
- <li> 29 MAr: CEG faculty room HG 3.98, <a href= "https://www.tudelft.nl/en/ceg/about-the-faculty/contact-and-map"> Get directions </a> </li>
+ <li> 29 MAr: CEG faculty room K 3.98, <a href= "https://www.tudelft.nl/en/ceg/about-the-faculty/contact-and-map"> Get directions </a> </li>
  </ol> 
   
 </p>
